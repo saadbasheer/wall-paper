@@ -5,7 +5,7 @@ import 'tldraw/tldraw.css'
 
 // The type here is include only to ensure this example contains all possible ui components,
 const components: Required<TLUiComponents> = {
-	
+	ContextMenu: null,
 	ActionsMenu: null,
 	HelpMenu: null,
 	ZoomMenu: null,
@@ -29,7 +29,7 @@ const components: Required<TLUiComponents> = {
 export default function UiComponentsHiddenExample() {
 	return (
 		<div className="tldraw__editor">
-			<Tldraw persistenceKey='default' components={components} />
+			<Tldraw persistenceKey="default" components={components} />
 		</div>
 	)
 }
