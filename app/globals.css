@@ -14,7 +14,11 @@ body {
 	min-height: -webkit-fill-available;
 	height: 100%;
 }
-
+.dark-mode {
+	--background-color: #1e1e1e;
+	--text-color: #ffffff;
+	/* Add other styles as needed */
+  }
 .tldraw__editor {
 	position: fixed;
 	top: 0px;
